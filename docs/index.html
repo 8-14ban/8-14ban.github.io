@@ -4,39 +4,105 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="临沂郑旺中学八年级14班班级文化展示网站 —— 记录我们一起走过的日子" />
-    <meta name="theme-color" content="#f2ede4" />
+    <meta name="theme-color" content="#F7F4ED" />
     <link
       rel="icon"
-      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%23f2ede4'/%3E%3Crect x='6.5' y='6.5' width='51' height='51' rx='5' fill='none' stroke='%23B23A2E' stroke-width='3'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='%23B23A2E' font-family='serif'%3E%E5%8D%81%3C/text%3E%3C/svg%3E"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%23F7F4ED'/%3E%3Crect x='6.5' y='6.5' width='51' height='51' rx='5' fill='none' stroke='%23B23A2E' stroke-width='3'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='%23B23A2E' font-family='serif'%3E%E5%8D%81%3C/text%3E%3C/svg%3E"
     />
     <link rel="apple-touch-icon" href="/photos/logo.png" />
     <meta property="og:title" content="临沂郑旺中学 八年级14班 · 班级文化" />
-    <meta property="og:description" content="五十个人的三年，记录我们一起走过的日子" />
+    <meta property="og:description" content="四十八个人的三年，记录我们一起走过的日子" />
     <meta property="og:image" content="https://8-14ban.github.io/photos/classroom-group.jpg" />
     <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
     <title>临沂郑旺中学 八年级14班 · 班级文化</title>
-
-    <!-- 夜间关闭保护：同步执行，北京时间 23:00—06:00 直接跳转关闭页，阻止站点加载 -->
+    <script type="module" crossorigin src="/assets/index-CoPFNLUR.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BYSKwtIt.css">
     <script>
-      (function () {
-        var fmt = new Intl.DateTimeFormat('en-US', {
-          timeZone: 'Asia/Shanghai',
-          hour: 'numeric',
-          hour12: false
-        });
-        var h = parseInt(fmt.format(new Date()), 10) % 24;
-        if (h >= 23 || h < 6) {
-          window.__NS = true;
-          location.replace('/closed.html');
-        }
-      })();
+    (function(){
+      var now=new Date();
+      var fmt=new Intl.DateTimeFormat('en-US',{timeZone:'Asia/Shanghai',hour:'numeric',hour12:false});
+      var h=parseInt(fmt.format(now),10)%24;
+      if(h>=23||h<6){
+        document.querySelectorAll('script[type="module"]').forEach(function(s){s.remove();});
+        window.__NS=true;
+      }
+    })();
     </script>
-
-    <script type="module" crossorigin src="/assets/index-ssZULA5Q.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/style-CWL3vstM.css">
+    <script>
+    (function(){
+      if(window.__NS) return;
+      function prep(img){
+        if(img.hasAttribute('loading')||img.dataset.ld) return;
+        img.dataset.ld='1';
+        img.setAttribute('loading','lazy');
+        img.setAttribute('decoding','async');
+      }
+      new MutationObserver(function(muts){
+        for(const m of muts){
+          for(const n of m.addedNodes){
+            if(n.nodeType!==1) continue;
+            if(n.tagName==='IMG') prep(n);
+            else if(n.querySelectorAll) n.querySelectorAll('img').forEach(prep);
+          }
+        }
+      }).observe(document.documentElement,{childList:true,subtree:true});
+    })();
+    </script>
   </head>
   <body>
+    <script>
+    if(window.__NS){
+      document.title='夜间关闭 · 八年级14班';
+      document.write('<div style="position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:99999;background:#1a1a2e;color:#F7F4ED;font-family:Georgia,serif;display:flex;align-items:center;justify-content:center;text-align:center;padding:2rem"><div style="max-width:480px"><div style="width:80px;height:80px;margin:0 auto 1.5rem;border:3px solid #B23A2E;border-radius:50%;display:flex;align-items:center;justify-content:center"><span style="font-size:2.4rem;color:#B23A2E;line-height:1">月</span></div><h1 style="font-size:1.6rem;color:#B23A2E;margin-bottom:1rem;letter-spacing:.1em">夜间关闭中</h1><p style="font-size:1.05rem;line-height:1.9;color:#bbb">八年级14班班级文化网站<br>已进入夜间休息时间</p><p style="margin-top:.5rem;font-size:1.05rem;line-height:1.9;color:#bbb">请在每天 06:00 后再来访问</p><div style="margin-top:1.5rem;font-size:.85rem;color:#666;border-top:1px solid #333;padding-top:1rem">关闭时段 23:00 — 06:00（北京时间）</div></div></div>');
+    }
+    </script>
     <div id="app"></div>
+    <script>
+    if(!window.__NS){
+      var SG=[{n:'心似烟火',s:'心似烟火.mp3'},{n:'星茶会',s:'星茶会.mp3'},{n:'风摇盛夏',s:'风摇盛夏.mp3'},{n:'3:30PM',s:'3_30PM.mp3'}];
+      var ci=0,au=new Audio();au.preload='auto';
+      var I={play:'<svg viewBox="0 0 24 24" width="15" height="15"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>',pause:'<svg viewBox="0 0 24 24" width="15" height="15"><path d="M6 5h4v14H6zm8 0h4v14h-4z" fill="currentColor"/></svg>',next:'<svg viewBox="0 0 24 24" width="13" height="13"><path d="M6 6h2v12H6zm3.5 6L18 18V6z" fill="currentColor"/></svg>',prev:'<svg viewBox="0 0 24 24" width="13" height="13"><path d="M16 6h2v12h-2zM6 18l8.5-6L6 6z" fill="currentColor"/></svg>',fold:'<svg viewBox="0 0 24 24" width="13" height="13"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" fill="currentColor"/></svg>',note:'<svg viewBox="0 0 24 24" width="18" height="18"><path d="M12 3v10.55A4 4 0 1 0 14 17V7h4V3z" fill="currentColor"/></svg>'};
+      var css='#mp{position:fixed;right:16px;bottom:16px;z-index:99998;font-family:Georgia,serif;user-select:none}';
+      css+='.mp-box{display:flex;align-items:center;gap:10px;background:rgba(247,244,237,.96);border:1px solid rgba(178,58,46,.25);border-radius:30px;padding:6px 10px 6px 16px;box-shadow:0 6px 24px rgba(0,0,0,.14)}';
+      css+='.mp-mini{position:relative;width:36px;height:36px;border-radius:50%;background:#B23A2E;color:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 3px 12px rgba(178,58,46,.4);border:none;transition:.2s}';
+      css+='.mp-mini:hover{transform:scale(1.08)}';
+      css+='.mp-mini.on::after{content:"";position:absolute;inset:0;border-radius:50%;box-shadow:0 0 0 0 rgba(178,58,46,.45);animation:mpp 1.6s ease-out infinite}';
+      css+='@keyframes mpp{0%{box-shadow:0 0 0 0 rgba(178,58,46,.45)}100%{box-shadow:0 0 0 12px rgba(178,58,46,0)}}';
+      css+='.mp-name{font-size:13px;color:#B23A2E;max-width:88px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;cursor:pointer}';
+      css+='.mp-prog{width:60px;height:3px;background:rgba(178,58,46,.18);border-radius:2px;overflow:hidden}';
+      css+='.mp-bar{height:100%;width:0;background:#B23A2E}';
+      css+='.mp-btn{width:26px;height:26px;border-radius:50%;background:rgba(178,58,46,.12);color:#B23A2E;display:flex;align-items:center;justify-content:center;cursor:pointer;border:none;transition:.15s;flex-shrink:0}';
+      css+='.mp-btn:hover{background:rgba(178,58,46,.25)}';
+      css+='.mp-btn.big{background:#B23A2E;color:#fff}';
+      css+='.mp-btn.big:hover{background:#9c4535}';
+      css+=' .hide{display:none!important}';
+      var st=document.createElement('style');st.textContent=css;document.head.appendChild(st);
+      var mp=document.createElement('div');mp.id='mp';
+      mp.innerHTML='<button class="mp-mini"></button><div class="mp-box hide"><span class="mp-name"></span><div class="mp-prog"><div class="mp-bar"></div></div><button class="mp-btn mp-prev"></button><button class="mp-btn big mp-play"></button><button class="mp-btn mp-next"></button><button class="mp-btn mp-fold"></button></div>';
+      document.body.appendChild(mp);
+      var mini=mp.querySelector('.mp-mini'),box=mp.querySelector('.mp-box'),nmEl=mp.querySelector('.mp-name'),pbEl=mp.querySelector('.mp-bar'),playEl=mp.querySelector('.mp-play'),prevEl=mp.querySelector('.mp-prev'),nextEl=mp.querySelector('.mp-next'),foldEl=mp.querySelector('.mp-fold');
+      mini.innerHTML=I.note;prevEl.innerHTML=I.prev;nextEl.innerHTML=I.next;foldEl.innerHTML=I.fold;
+      function syncIcon(){playEl.innerHTML=au.paused?I.play:I.pause;mini.classList.toggle('on',!au.paused);}
+      function load(){au.src='/music/'+encodeURIComponent(SG[ci].s);nmEl.textContent=SG[ci].n;}
+      function next(){ci=(ci+1)%SG.length;load();au.play();}
+      function prev(){ci=(ci-1+SG.length)%SG.length;load();au.play();}
+      mini.addEventListener('click',function(){box.classList.remove('hide');mini.classList.add('hide');un();});
+      foldEl.addEventListener('click',function(){box.classList.add('hide');mini.classList.remove('hide');});
+      playEl.addEventListener('click',function(){if(au.paused)au.play();else au.pause();});
+      nextEl.addEventListener('click',next);
+      prevEl.addEventListener('click',prev);
+      nmEl.addEventListener('click',next);
+      au.addEventListener('timeupdate',function(){if(au.duration)pbEl.style.width=(au.currentTime/au.duration*100)+'%';});
+      au.addEventListener('ended',next);
+      au.addEventListener('play',syncIcon);
+      au.addEventListener('pause',syncIcon);
+      au.addEventListener('playing',syncIcon);
+      load();syncIcon();
+      var evs=['pointerdown','touchstart','pointermove','wheel','keydown'];
+      var un=function(){if(au.muted){au.muted=false;if(au.paused)au.play();}evs.forEach(function(e){document.removeEventListener(e,un);});};
+      var p=au.play();
+      if(p&&p.then){p.catch(function(){au.muted=true;var q=au.play();if(q&&q.then)q.catch(function(){});evs.forEach(function(e){document.addEventListener(e,un,{passive:true});});});}
+    }
+    </script>
   </body>
 </html>
