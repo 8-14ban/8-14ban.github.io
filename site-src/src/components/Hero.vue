@@ -17,6 +17,7 @@ import Countdown from './Countdown.vue'
       <div class="hero__school">{{ site.school }}</div>
       <h1 class="hero__title">{{ site.name }}</h1>
       <p class="hero__emblem">「{{ site.emblem }}」 · {{ site.slogan }}</p>
+      <p class="hero__motto">{{ site.motto }}</p>
       <p class="hero__intro">{{ site.intro[0] }}</p>
 
       <Countdown class="hero__count" />
@@ -96,6 +97,13 @@ import Countdown from './Countdown.vue'
   font-size: clamp(0.95rem, 2.4vw, 1.2rem);
   letter-spacing: 0.14em;
   color: #f2ede4;
+}
+.hero__motto {
+  margin-top: 10px;
+  font-size: clamp(0.82rem, 2vw, 0.98rem);
+  letter-spacing: 0.22em;
+  color: var(--cinnabar-on-dark);
+  font-weight: 600;
 }
 .hero__intro {
   max-width: 560px;

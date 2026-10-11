@@ -8,6 +8,7 @@ import Timeline from './components/Timeline.vue'
 import Pact from './components/Pact.vue'
 import Honors from './components/Honors.vue'
 import Study from './components/Study.vue'
+import Roster from './components/Roster.vue'
 import Members from './components/Members.vue'
 import Voices from './components/Voices.vue'
 import AboutSite from './components/AboutSite.vue'
@@ -25,6 +26,7 @@ import Footer from './components/Footer.vue'
     <Pact />
     <Honors />
     <Study />
+    <Roster />
     <Members />
     <Voices />
     <AboutSite />
